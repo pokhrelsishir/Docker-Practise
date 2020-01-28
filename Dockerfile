@@ -1,6 +1,6 @@
 FROM node:latest
 
-MAINTAINER Sishir Pokhrel
+LABEL "Author:"="Sishir Pokhrel"
 
 ENV NODE_ENV = production
 ENV PORT=3000
